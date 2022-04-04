@@ -1,0 +1,31 @@
+classe e atributos
+                                 --MODIFICADORES DE ACESSO--
+
++Public (todos tem acesso ao atributo, ou herdam da classe especifica)
+#Protected (apenas filhos podem ter acesso)
+-Private (apenas a propria classe tem acesso ao atributo)
+
+
+
+Herança: não somente os atributos mas a classe "filha"(generica) recebe outros valores além do que recebe da classe especifica.
+  |-Não se pode ter uma uma classe generica que recebe de duas classes especificas diferentes.
+   heraça multipla apenas em c++, na documentação do UML é permitido porém outras linguagens não
+aceitam heranças multipplas. O motivo de não ter é fácil nivel de confusão em inserir informações
+que não faz sentido para outra classe.
+
+
+--------------------exemplo codigo-----------------
+class Pessoa                     
+{
+  public string nome;
+  public string telefone;
+  public string contato;
+  public string Endereço endereço;
+}
+-------------------
+class Cliente : Pessoa ----- (aqui temos a classe "cliente" recebendo a herança da classe "pessoa")
+{
+ 
+}
+--------------------
+
