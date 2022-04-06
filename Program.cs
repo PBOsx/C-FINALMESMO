@@ -50,8 +50,10 @@ namespace calculadora2V
             Console.WriteLine("{0} {1} {2} = {3}", numero1, operacao, numero2, resultado);
 
 
-            Console.WriteLine("Deseja continuar?");
-            case
+            Console.WriteLine("Deseja continuar? [s/n]");
+            Continuar = Console.ReadLine();
+         while ((continuar != n));
+        continuar = Console.ReadLine();
 
             Console.ReadKey();
 
